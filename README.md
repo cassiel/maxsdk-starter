@@ -6,6 +6,10 @@
 
         git submodule add git://github.com/Cycling74/max6-sdk.git max6-sdk
 
+- Done in repo: we *do* need
+
+        git submodule update --init
+
 # NOTES
 
 The example projects in the SDK have a few directory-relative references (in the case of Xcode, these are relative to the directory containing the `.xcodeproj` bundle, not the project text file in the bundle itself):
