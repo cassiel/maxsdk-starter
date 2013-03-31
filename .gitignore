@@ -1,2 +1,4 @@
 build/
 /sdk-build
+*.xcworkspace/
+xcuserdata/
