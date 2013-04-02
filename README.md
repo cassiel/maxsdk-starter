@@ -1,10 +1,10 @@
--*- word-wrap: t; -*-
+`-*- word-wrap: t; -*-`
 
 # Introduction
 
-This is a project containing the source for some example C externals for MaxMSP. THe project is laid out so that Cycling '74's Max 6 SDK can be fetched as a Git submodule (as opposed to starting with the SDK and then creating new external source trees inside it).
+This is a project containing the source for some example C externals for MaxMSP. The project is laid out so that Cycling '74's Max 6 SDK can be fetched as a Git submodule (as opposed to starting with the SDK and then creating new external source trees inside it).
 
-Feel free to fork this project and add, or modify the examples (read the _Setup_ section below). Alternatively, copy this project to start a new external (see the section _From Scratch_).
+Feel free to fork this project and add, copy or modify the examples (read the _Setup_ section below). Alternatively, copy this project to start a new external (see the section _From Scratch_).
 
 So far this is tested with Xcode 4. Windows requires a bit of work (mainly because the symbolic links in the source tree won't work); that's at the top of the to-do list.
 
