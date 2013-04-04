@@ -1,0 +1,4 @@
+LIBRARY simplemaxcpp.mxe
+
+EXPORTS
+        main

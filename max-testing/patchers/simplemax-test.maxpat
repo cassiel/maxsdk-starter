@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 2,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 95.0, 229.0, 640.0, 480.0 ],
@@ -31,6 +31,19 @@
 				"box" : 				{
 					"fontname" : "Anonymous Pro",
 					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 45.0, 65.0, 214.0, 18.0 ],
+					"text" : "simplemaxcpp foo bar 42 baz 2.9"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Anonymous Pro",
+					"fontsize" : 12.0,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -44,6 +57,10 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "simplemax.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "simplemaxcpp.mxo",
 				"type" : "iLaX"
 			}
  ]
